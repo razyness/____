@@ -38,7 +38,7 @@ def ____(___):
 
 def underscore():
     for _ in os.listdir('.\_'):
-        if _.endswith('.py'):
+        if _.endswith('.toml'):
             __.____(f'_.{_}', True, _.______)
         else:
             print(_ + '___')
